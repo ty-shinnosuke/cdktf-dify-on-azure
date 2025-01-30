@@ -1,0 +1,24 @@
+{
+"name": "Node.js & TypeScript",
+"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+"runArgs": ["--name=cdktf-dev"],
+	"features": {
+		"ghcr.io/devcontainers/features/aws-cli:1": {},
+		"ghcr.io/devcontainers/features/azure-cli:1": {},
+		"ghcr.io/joedmck/devcontainer-features/cdktf:1": {},
+		"ghcr.io/devcontainers-extra/features/infracost:1": {},
+		"terraform": {
+			"version": "1.9.3",
+			"tflint": "latest",
+			"terragrunt": "latest"
+		  }
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode"
+			]
+		}
+	}
+}
