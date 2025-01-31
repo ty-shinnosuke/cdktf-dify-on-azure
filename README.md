@@ -1,6 +1,6 @@
 # cdktf-dify-on-azure
 
-個人学習目的で、[dify Azure terraform](https://github.com/nikawang/dify-azure-terraform)を cdktf で書き直してみたものです。
+個人学習目的で、[dify Azure terraform](https://github.com/nikawang/dify-azure-terraform)を参考に cdktf で書き直してみたものです。
 
 ## Azure
 
@@ -23,13 +23,13 @@
 
 3. **データストア**
 
-   - PostgreSQL Flexible Server: メインデータベース（PgVector 拡張機能付き）
-   - Azure Cache for Redis: キャッシュおよびメッセージブローカー
+   - PostgreSQL Flexible Server: （PgVector 拡張機能付き）
+   - Azure Cache for Redis: キャッシュ
    - Storage Account: ファイル保存, ファイル共有(マウント)
 
 4. **監視**
 
-   - Log Analytics: コンテナアプリのログ収集と分析
+   - Log Analytics: ログ収集と分析
 
 5. **Azure Key Vault**
 
